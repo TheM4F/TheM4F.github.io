@@ -23,8 +23,8 @@ const siteConfig = {
     ],
   
     testimonials: [
-      { text: "Zamanında teslim ve harika hizmet!",            author: "Ayşe Y.",   stars: 5,   date: "2025-04-25" },
-      { text: "Ekip çok ilgiliydi, tam puan.",                 author: "Mehmet K.", stars: 4.5, date: "2025-04-20" },
+      { text: "Zamanında teslim ve harika hizmet!",            author: "Esra G.",   stars: 5,   date: "2025-04-25" },
+      { text: "Ekip çok ilgiliydi, tam puan.",                 author: "Mustafa G.", stars: 4.5, date: "2025-04-20" },
       { text: "Çiftlik turu unutulmazdı.",                     author: "Elif S.",   stars: 4,   date: "2025-04-18" },
       { text: "Kesim sonrası temizlik mükemmeldi.",            author: "Ali V.",    stars: 5,   date: "2025-04-15" },
       { text: "Toprak verimimiz arttı, teşekkürler!",          author: "Zeynep T.", stars: 4.5, date: "2025-04-12" },
