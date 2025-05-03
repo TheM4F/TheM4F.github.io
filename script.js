@@ -163,6 +163,7 @@ function renderCategories() {
   });
 }
 
+// Render testimonials carousel
 function renderTestimonialsCarousel() {
   const cont = document.getElementById("testimonialCarousel");
   cont.innerHTML = "";
@@ -170,15 +171,14 @@ function renderTestimonialsCarousel() {
   inner.className = "testimonial-inner";
   cont.appendChild(inner);
 
-  // Kartları ekle
   siteConfig.testimonials.forEach(t => {
     const card = document.createElement("div");
     card.className = "testimonial-card";
     let stars = '<div class="stars">';
     for (let s = 1; s <= 5; s++) {
-      if (t.stars >= s)       stars += '<i class="star full fas fa-star"></i>';
-      else if (t.stars >= s-0.5) stars += '<i class="star half fas fa-star-half-alt"></i>';
-      else                     stars += '<i class="star empty far fa-star"></i>';
+      if (t.stars >= s) stars += '<i class="star full fas fa-star"></i>';
+      else if (t.stars >= s - 0.5) stars += '<i class="star half fas fa-star-half-alt"></i>';
+      else stars += '<i class="star empty far fa-star"></i>';
     }
     stars += "</div>";
     card.innerHTML = `
@@ -190,38 +190,21 @@ function renderTestimonialsCarousel() {
     inner.appendChild(card);
   });
 
-  // Ölçümler
   const style = window.getComputedStyle(inner);
-  const gap   = parseFloat(style.getPropertyValue("gap"));
-  const first = inner.querySelector(".testimonial-card");
-  const cardW = first.offsetWidth + gap;
-  const maxIdx = siteConfig.testimonials.length - 1;
+  const gapPx = parseFloat(style.getPropertyValue("gap"));
+  const firstCard = inner.querySelector(".testimonial-card");
+  const cardWidth = firstCard.offsetWidth + gapPx;
   let idx = 0;
-
-  // Başlangıçta geçiş animasyonu ayarla
-  inner.style.transition = "transform 0.5s ease";
+  const maxIdx = siteConfig.testimonials.length - 1;
 
   function slide() {
-    inner.style.transform = `translateX(-${cardW * idx}px)`;
+    inner.style.transform = `translateX(-${cardWidth * idx}px)`;
   }
 
   setInterval(() => {
-    if (idx < maxIdx) {
-      // normal kaydırma
-      idx++;
-      inner.style.transition = "transform 0.5s ease";
-      slide();
-    } else {
-      // sonda wrap-around: animasyonu kaldır, sıfıra atla
-      idx = 0;
-      inner.style.transition = "none";
-      slide();
-      // küçük bir gecikmeyle animasyonu geri aç
-      setTimeout(() => {
-        inner.style.transition = "transform 0.5s ease";
-      }, 50);
-    }
-  }, 5000);
+    idx = idx < maxIdx ? idx + 1 : 0;
+    slide();
+  }, 5500);
 }
 
 // Setup floating contact panel
