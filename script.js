@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initScrollUI();
 
   // 7. Countdown timer
-  initCountdown("2025-06-06T00:00:00+03:00", updateCountdown);
+  initCountdown("2026-05-27T00:00:00+03:00", updateCountdown);
 
   // 8. Render service categories
   renderCategories();
