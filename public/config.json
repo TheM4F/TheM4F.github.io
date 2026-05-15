@@ -1,0 +1,136 @@
+{
+  "siteTitle": "Stüdyo Genç | Elmadağ Fotoğraf, Video & Drone Çekimi",
+  "metaDescription": "Ankara Elmadağ'da düğün, nikah, dış çekim, etkinlik, ürün fotoğrafı, video ve drone çekimlerinde anılarınızı doğal, sıcak ve güven veren bir dille görünür kılıyoruz.",
+  "brand": {
+    "logo": "/assets/logo/logo.svg"
+  },
+  "contact": {
+    "phone": "+90 553 220 41 69",
+    "email": "iletisim@studyogenc.com",
+    "address": "İsmetpaşa, Cumhuriyet Cd. 53 A, 06780 Elmadağ/Ankara",
+    "whatsappLink": "https://wa.me/+905532204169"
+  },
+  "socialMedia": [
+    {
+      "name": "Instagram - Stüdyo Genç",
+      "icon": "fa-brands fa-instagram",
+      "url": "https://www.instagram.com/studyo_genc"
+    },
+    {
+      "name": "Instagram - Mustafa Genç",
+      "icon": "fa-brands fa-instagram",
+      "url": "https://www.instagram.com/06mef"
+    }
+  ],
+  "maps": {
+    "lat": 39.91874808994741,
+    "lng": 33.23139448133649,
+    "zoom": 15,
+    "placeName": "Stüdyo Genç"
+  },
+  "homepage": {
+    "heroTitle": "O günü tekrar yaşatacak kareler.",
+    "heroSubtitle": "Özel günlerinizi, markanızı ve emeğinizi sadece güzel görünen değil, size ait hissettiren fotoğraf, video ve drone çekimleriyle anlatıyoruz.",
+    "heroTexts": [
+      "Düğün Hikayesi.",
+      "Dış Çekim Anısı.",
+      "Nikah Heyecanı.",
+      "Etkinlik Ruhu."
+    ],
+    "heroSlides": [
+      "/assets/images/nikah/1.webp",
+      "/assets/images/dugun/1.webp",
+      "/assets/images/dis-cekim/1.webp",
+      "/assets/images/drone/1.webp",
+      "/assets/images/etkinlik/1.webp"
+    ]
+  },
+  "about": {
+    "title": "Hikayemiz",
+    "text": "Merhaba, ben Mustafa. Çekimlerde en çok şunu önemserim: karşımda duran insan kendini güvende ve rahat hissetsin. Çünkü güzel bir kare, sadece iyi ışıkla değil; insanın kendini saklamadığı bir anda ortaya çıkar. Stüdyo Genç'te günü büyütmeden, sizi yormadan, ne hissettiğinizi anlayarak ilerleriz. Sonunda elinizde sadece fotoğraf değil; baktıkça o güne döndüren, içinizi yumuşatan hatıralar kalsın isteriz.",
+    "signature": "Mustafa Genç",
+    "stats": [
+      {
+        "value": 150000,
+        "label": "Hatıra"
+      },
+      {
+        "value": 100,
+        "label": "Mutlu Hikaye"
+      },
+      {
+        "value": 12,
+        "label": "Yıllık Güven"
+      }
+    ]
+  },
+  "services": [
+    {
+      "title": "Dış Çekimler",
+      "description": "Gergin pozlar yerine size yakışan doğal halleri ararız. Işığı, mekanı ve yönlendirmeyi sessizce toparlar; geriye kendinizi iyi hissettiğiniz kareler bırakırız.",
+      "image": "assets/images/dis-cekim/1.webp"
+    },
+    {
+      "title": "Düğün, Nişan & Kına",
+      "description": "O gün hızlı geçer; bazen siz bile bazı anları kaçırırsınız. Biz telaşın içinde gülüşleri, bakışları, aile sıcaklığını ve gecenin ritmini sizin için saklarız.",
+      "image": "assets/images/dugun/1.webp"
+    },
+    {
+      "title": "Nikah Çekimleri",
+      "description": "Kısa süren ama kalpte büyük yer açan o anları sade, zarif ve telaşsız şekilde kaydederiz. İmzanız, bakışınız ve heyecanınız yıllar sonra da canlı kalsın.",
+      "image": "assets/images/nikah/1.webp"
+    },
+    {
+      "title": "Drone Çekimleri",
+      "description": "Bazen hikayenin büyüklüğü yukarıdan bakınca anlaşılır. Mekanı, kalabalığı ve günün atmosferini daha geniş, sinematik ve unutulmaz bir açıyla gösteririz.",
+      "image": "assets/images/drone/1.webp"
+    },
+    {
+      "title": "Mezuniyet Çekimleri",
+      "description": "Emek verdiğiniz yılların sonunda gelen o gururu, enerjinizi ve sevdiklerinizle paylaştığınız mutluluğu canlı, genç ve içten karelerle saklarız.",
+      "image": "assets/images/mezuniyet/1.webp"
+    },
+    {
+      "title": "Doğum Günü Çekimleri",
+      "description": "Mumlar söner, kalabalık dağılır; ama o günün neşesi kalabilir. Çocukların heyecanını, aile sıcaklığını ve küçük detayları içten bir dille yakalarız.",
+      "image": "assets/images/dogum-gunu/1.webp"
+    },
+    {
+      "title": "Konser Çekimleri",
+      "description": "Sahnedeki ışığı, kalabalığın enerjisini ve performansın ritmini sadece belgelemeyiz; o gecenin temposunu yeniden hissettirecek karelere dönüştürürüz.",
+      "image": "assets/images/konser/1.webp"
+    },
+    {
+      "title": "Etkinlik Çekimleri",
+      "description": "Bir organizasyonda görünmeyen çok emek vardır. Biz o emeği, insanları, akışı ve markanızın duruşunu düzenli, güçlü ve paylaşmaya hazır şekilde anlatırız.",
+      "image": "assets/images/etkinlik/1.webp"
+    },
+    {
+      "title": "Ürün Çekimleri",
+      "description": "Ürününüzün arkasındaki emeği ilk bakışta hissettiren temiz, güven veren ve değerini anlatan görseller hazırlarız. Çünkü iyi görüntü, iyi emeği görünür kılar.",
+      "image": "assets/images/urun-cekimleri/1.webp"
+    }
+  ],
+  "categories": {
+    "dugun": "Düğün",
+    "mezuniyet": "Mezuniyet",
+    "urun-cekimleri": "Ürün Çekimleri",
+    "dogum-gunu": "Doğum Günü",
+    "drone": "Drone",
+    "konser": "Konser",
+    "dis-cekim": "Dış Çekim",
+    "etkinlik": "Etkinlik Çekimleri",
+    "nikah": "Nikah"
+  },
+  "portfolioOrder": [
+    "dis-cekim",
+    "dugun",
+    "nikah",
+    "drone",
+    "etkinlik",
+    "konser",
+    "mezuniyet",
+    "dogum-gunu",
+    "urun-cekimleri"
+  ]
+}

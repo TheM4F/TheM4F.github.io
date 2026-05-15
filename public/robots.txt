@@ -1,0 +1,5 @@
+# robots.txt for studyogenc.com
+User-agent: *
+Allow: /
+
+Sitemap: https://studyogenc.com/sitemap.xml
