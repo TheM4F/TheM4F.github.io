@@ -1,0 +1,9 @@
+{
+  "name": "Elmadağ Fotoğrafçı | Stüdyo Genç",
+  "short_name": "Stüdyo Genç",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1f2022",
+  "theme_color": "#1f2022",
+  "lang": "tr"
+}

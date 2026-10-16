@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://elmadagfotograf.com.tr/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://elmadagfotograf.com.tr/site-fotograflari/studyo-genc-elmadag-fotograf-portfolyo-01.webp</image:loc>
+      <image:caption>Stüdyo Genç Elmadağ düğün ve dış çekim fotoğrafı</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://elmadagfotograf.com.tr/site-fotograflari/studyo-genc-elmadag-fotograf-portfolyo-02.webp</image:loc>
+      <image:caption>Elmadağ fotoğrafçı Stüdyo Genç portfolyo çekimi</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://elmadagfotograf.com.tr/site-fotograflari/studyo-genc-elmadag-fotograf-portfolyo-03.webp</image:loc>
+      <image:caption>Elmadağ gelin damat dış çekim fotoğrafı</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://elmadagfotograf.com.tr/site-fotograflari/studyo-genc-elmadag-fotograf-portfolyo-04.webp</image:loc>
+      <image:caption>Stüdyo Genç profesyonel düğün portresi</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://elmadagfotograf.com.tr/site-fotograflari/studyo-genc-elmadag-fotograf-video-drone.webp</image:loc>
+      <image:caption>Elmadağ profesyonel fotoğraf video ve drone çekimi</image:caption>
+    </image:image>
+  </url>
+</urlset>
